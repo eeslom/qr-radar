@@ -71,9 +71,6 @@ export default defineConfig({
   ssgOptions: {
     script: 'async',
     formatting: 'minify',
-    crittersOptions: {
-      reduceInlineStyles: false,
-    },
     onFinished() {
       generateSitemap()
     },
