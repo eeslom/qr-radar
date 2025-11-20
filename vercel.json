@@ -7,6 +7,7 @@
       "destination": "/index.html"
     }
   ],
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "headers": [
     {
       "source": "/manifest.webmanifest",
